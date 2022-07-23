@@ -1,0 +1,49 @@
+
+
+
+
+body{
+    font-family: League Spartan ;
+    font-size: larger;
+    background-color: rgb(20, 7, 32);
+    
+}
+
+
+.img-md{
+    max-width: 270px;
+    height: auto;
+
+}
+.img-sm{
+    max-width: 150px;
+    height: auto;
+    
+}
+.img-icon{
+    max-width: 40px;
+    height: auto;
+    margin: 5px;
+    
+}
+
+.hero{
+    margin-top: 150px;
+}
+
+.logo{
+    color: #5df0c4;
+    font:  normal normal normal 25px/1.6em avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+    text-shadow: 0 1px 4px rgba(2, 255, 149, 0.6) ;
+}
+
+.colour-text{
+    color: #49aa49;
+     /* text-shadow: 0 1px 4px rgba(196, 187, 187, 0.6) ; */
+}
+
+.flexbox-gap {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px
+}

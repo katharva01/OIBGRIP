@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-converter</title>
+    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="pre">
+      <div class="main">
+        <div class="title">
+          <h1>T-converter <span>&#127777;</span></h1>
+        </div>
+        <div class="type">
+          <div>
+
+            <input
+            type="radio"
+            name="selectMode"
+            id="DtF"
+            class="category"
+            checked
+            onclick="updateValue()"
+            />
+            <label for="DtF"
+            >Convert from Degree Celcius to degree farenhiet</label
+            >
+          </div>
+          <div>
+
+            <input
+            type="radio"
+            name="selectMode"
+            id="DtK"
+            class="category"
+            onclick="updateValue()"
+            />
+            <label for="DtK">Convert from Degree Celcius to Kelvin</label>
+          </div>
+        </div>
+        <div class="convert">
+          <fieldset>
+            <legend>Temperature in Degree Celcius</legend>
+            <input
+              id="inputTemp"
+              placeholder="Enter a value"
+              name="name"
+              type="number"
+            />
+          </fieldset>
+        </div>
+        <div class="val">
+          <h2 id="values1"></h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

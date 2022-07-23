@@ -1,0 +1,70 @@
+
+body{
+    font-size:large;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.pre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #023047;
+    width: 100vw;
+    height: 100vh;
+    padding: 2vw;
+    color: #1e6091;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #d9ed92;
+    padding: 2%;
+    width: 80vw;
+}
+
+.title{
+    text-align: center;
+    color: #184e77;
+    margin: 1vw;
+    margin-bottom: 4vw;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.type{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2vw;
+    padding: 2%;
+}
+
+.convert{
+    color: #1e6091;
+    margin: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2vw;
+    padding: 2%;
+}
+
+
+#inputTemp{
+    background-color: transparent;
+    border: none;
+    border-bottom: #76c893 solid 2px;
+    text-align: center;
+    
+}
+
+.category{
+ 
+}
+
+
+#val{
+ 
+}
