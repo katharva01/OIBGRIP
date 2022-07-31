@@ -12,8 +12,9 @@ body{
 
 }
 .img-sm{
-    max-width: 150px;
-    height: auto;
+    height: 120px;
+    width: 150px;
+    
     
 }
 .img-icon{
@@ -34,14 +35,14 @@ body{
 }
 
 .colour-text{
-    color: #49aa49;
+    color: #00C851;
      /* text-shadow: 0 1px 4px rgba(196, 187, 187, 0.6) ; */
 }
 
 .card{
     padding: 1%;
     width: 280px;
-    height: 390px;
+    /* height: 390px; */
     box-shadow: 0 1px 4px rgba(177, 255, 209, 0.6);
 }
 
